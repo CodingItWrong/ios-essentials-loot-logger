@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03027D962A10EB0A0063EE24 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03027D952A10EB0A0063EE24 /* ItemCell.swift */; };
+		03027D982A10F1D70063EE24 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03027D972A10F1D70063EE24 /* DetailViewController.swift */; };
+		03027D9C2A12416D0063EE24 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03027D9B2A12416D0063EE24 /* ImageStore.swift */; };
 		03DDE39F2A0EE2E90064485F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DDE39E2A0EE2E90064485F /* AppDelegate.swift */; };
 		03DDE3A12A0EE2E90064485F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DDE3A02A0EE2E90064485F /* SceneDelegate.swift */; };
-		03DDE3A32A0EE2E90064485F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DDE3A22A0EE2E90064485F /* ViewController.swift */; };
 		03DDE3A62A0EE2E90064485F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03DDE3A42A0EE2E90064485F /* Main.storyboard */; };
 		03DDE3A82A0EE2E90064485F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03DDE3A72A0EE2E90064485F /* Assets.xcassets */; };
 		03DDE3AB2A0EE2E90064485F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03DDE3A92A0EE2E90064485F /* LaunchScreen.storyboard */; };
 		03DDE3B62A0EE2EA0064485F /* LootLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DDE3B52A0EE2EA0064485F /* LootLoggerTests.swift */; };
 		03DDE3C02A0EE2EA0064485F /* LootLoggerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DDE3BF2A0EE2EA0064485F /* LootLoggerUITests.swift */; };
 		03DDE3C22A0EE2EA0064485F /* LootLoggerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DDE3C12A0EE2EA0064485F /* LootLoggerUITestsLaunchTests.swift */; };
+		03DDE3CF2A0EE2FB0064485F /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DDE3CE2A0EE2FB0064485F /* ItemsViewController.swift */; };
+		03DDE3D12A0EE3710064485F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DDE3D02A0EE3710064485F /* Item.swift */; };
+		03DDE3D32A0EE47F0064485F /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DDE3D22A0EE47F0064485F /* ItemStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03027D952A10EB0A0063EE24 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		03027D972A10F1D70063EE24 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		03027D9B2A12416D0063EE24 /* ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
 		03DDE39B2A0EE2E90064485F /* LootLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LootLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03DDE39E2A0EE2E90064485F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03DDE3A02A0EE2E90064485F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		03DDE3A22A0EE2E90064485F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		03DDE3A52A0EE2E90064485F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03DDE3A72A0EE2E90064485F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03DDE3AA2A0EE2E90064485F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +56,9 @@
 		03DDE3BB2A0EE2EA0064485F /* LootLoggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LootLoggerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03DDE3BF2A0EE2EA0064485F /* LootLoggerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootLoggerUITests.swift; sourceTree = "<group>"; };
 		03DDE3C12A0EE2EA0064485F /* LootLoggerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootLoggerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		03DDE3CE2A0EE2FB0064485F /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		03DDE3D02A0EE3710064485F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		03DDE3D22A0EE47F0064485F /* ItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +109,15 @@
 		03DDE39D2A0EE2E90064485F /* LootLogger */ = {
 			isa = PBXGroup;
 			children = (
+				03DDE3CE2A0EE2FB0064485F /* ItemsViewController.swift */,
+				03027D972A10F1D70063EE24 /* DetailViewController.swift */,
+				03027D9B2A12416D0063EE24 /* ImageStore.swift */,
+				03027D952A10EB0A0063EE24 /* ItemCell.swift */,
 				03DDE39E2A0EE2E90064485F /* AppDelegate.swift */,
 				03DDE3A02A0EE2E90064485F /* SceneDelegate.swift */,
-				03DDE3A22A0EE2E90064485F /* ViewController.swift */,
 				03DDE3A42A0EE2E90064485F /* Main.storyboard */,
+				03DDE3D02A0EE3710064485F /* Item.swift */,
+				03DDE3D22A0EE47F0064485F /* ItemStore.swift */,
 				03DDE3A72A0EE2E90064485F /* Assets.xcassets */,
 				03DDE3A92A0EE2E90064485F /* LaunchScreen.storyboard */,
 				03DDE3AC2A0EE2E90064485F /* Info.plist */,
@@ -258,9 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03DDE3A32A0EE2E90064485F /* ViewController.swift in Sources */,
+				03DDE3D12A0EE3710064485F /* Item.swift in Sources */,
+				03DDE3CF2A0EE2FB0064485F /* ItemsViewController.swift in Sources */,
+				03027D962A10EB0A0063EE24 /* ItemCell.swift in Sources */,
+				03027D9C2A12416D0063EE24 /* ImageStore.swift in Sources */,
 				03DDE39F2A0EE2E90064485F /* AppDelegate.swift in Sources */,
+				03DDE3D32A0EE47F0064485F /* ItemStore.swift in Sources */,
 				03DDE3A12A0EE2E90064485F /* SceneDelegate.swift in Sources */,
+				03027D982A10F1D70063EE24 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +460,7 @@
 				DEVELOPMENT_TEAM = 6283CFQE2Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LootLogger/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to associate photos with items.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -468,6 +489,7 @@
 				DEVELOPMENT_TEAM = 6283CFQE2Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LootLogger/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to associate photos with items.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
